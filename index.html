@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <CENTER>
-        <head>
-            <title>Home page</title>
-        </head>
-        <body bgcolor=#111111>
-            <font color=#eeeeee face='Consolas'>
-            <h1>Elliot Jenkinszz website</h1>
-            <h2>Under construction</h2>
-            <img src='toocool.gif'/>
-            <p>omg 
-                <a href='/about/aboutme.html'>a link</a>
-            </p>
-            </font>
-        </body>
-    </CENTER>
+<html dir="ltr" lang="en-US">
+<head>
+<title>Elliot Jenkins - Maker Of Fine Internet Stuffs</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Elliot Jenkins is an undergraduate computer science student at The University of Melbourne" />
+	<meta name="keywords" content="Elliot Jenkins is an undergraduate computer science student at The University of Melbourne" />
+	<meta name="author" content="Elliot Jenkins" />
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="apple-touch-icon" href="ej.png" />  
+	<link rel="Shortcut Icon" href="ej.ico" type="image/x-icon" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://jonphillips.ca/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6641774/6521572/css/fonts.css" />
+	
+</head>	
+
+<main class="container">
+	<section class="content">
+		<h1>Elliot Jenkins</h1>
+		<p id="desc"></p>
+		<a href="mailto:elliot@linux.com" title="Email Elliot Jenkins">Contact</a>
+	</section>
+</main>
+
+<footer>
+	<a class="tw" href="https://twitter.com/Elliot_Jenkins" title="Elliot Jenkins on Twitter"><span class="icon-twitter"></span></a>
+	<a class="li" href="https://www.linkedin.com/in/elliot-jenkins-22491011b" title="Elliot Jenkins on LinkedIn"><span class="icon-linkedin"></span></a>
+</footer>
+
+<script>
+var showText = function (target, message, index, interval) {    
+	if (index < message.length) { 
+		$(target).append(message[index++]); 
+		setTimeout(function () { showText(target, message, index, interval); }, interval); 
+	} 
+}
+$(function () { 
+	showText("#desc", "Really Cool Dude", 0, 100);    
+}); 
+</script>
+</body>	
 </html>
