@@ -43,7 +43,7 @@ html, body {
 	font-style: normal;
 	font-weight: 400;
     height: 100%;
-	background-color: #f9f9f9;
+	background-color: #000000;
 	padding: 0;
 	margin: 0;
 }
@@ -199,22 +199,22 @@ main.container {
     justify-content: center;
 }
 main.container section.content h1 {
-	color: #21211f;
+	color: #efefea;
 	font-size: 8rem;
 	padding: 0;
-	letter-spacing: -0.5rem;
-	font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
+	letter-spacing: -0.4rem;
+	font-family:'Neutron', serif;
 	font-style: normal;
 	font-weight: 900;
 }
 main.container section.content p {
-	color: #21211f;
+	color: #efefea;
 	font-size: 1.2rem;
 	line-height: 0;
 	letter-spacing: 0.135rem;
 	margin: -0.35rem 0 0 0;
 	padding: 0 0 0 14.3rem;
-	font-family: "Sentinel A", "Sentinel B";
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -223,20 +223,20 @@ main.container section.content a {
 	margin: 0 auto;
 	display: inline-block;
 	width: auto;
-	font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	background: #e22a25;
 	border-radius: 50px;
 	padding: 0.75rem 1.5rem;
 	font-size: 0.9rem;
-	letter-spacing: 0.25rem;
+	letter-spacing: 0.4rem;
 	text-transform: uppercase;
-	color: #fff;
+	color: #000;
 	transition: all 0.5s ease;
 }
 main.container section.content a:hover {
-	background: #21211f;
+	background: #efefea;
 	transition: all 0.5s ease;
 }
 
@@ -251,7 +251,7 @@ footer {
 }
 footer a {
 	padding: 0 0.5rem;
-	color: #21211f;
+	color: #efefea;
 	font-size: 30px;
 	transition: all 0.5s ease;
 }
