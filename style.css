@@ -2,39 +2,64 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 /***** Web Fonts *****/
+
 @font-face {
-	font-family: 'icomoon';
-	src: url('fonts/icomoon.eot?za1o0');
-	src: url('fonts/icomoon.eot?za1o0#iefix') format('embedded-opentype'),
-		 url('fonts/icomoon.ttf?za1o0') format('truetype'),
-		 url('fonts/icomoon.woff?za1o0') format('woff'),
-		 url('fonts/icomoon.svg?za1o0#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wdjs0j');
+  src:  url('fonts/icomoon.eot?wdjs0j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wdjs0j') format('truetype'),
+    url('fonts/icomoon.woff?wdjs0j') format('woff'),
+    url('fonts/icomoon.svg?wdjs0j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon' !important;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-facebook:before {
-	content: "\e900";
+  content: "\e900";
 }
 .icon-instagram:before {
-	content: "\e901";
-}
-.icon-linkedin:before {
-	content: "\e902";
+  content: "\e901";
 }
 .icon-twitter:before {
-	content: "\e903";
+  content: "\e902";
 }
+.icon-youtube:before {
+  content: "\e903";
+}
+.icon-steam:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-android:before {
+  content: "\e906";
+}
+.icon-soundcloud:before {
+  content: "\e907";
+}
+.icon-reddit:before {
+  content: "\e908";
+}
+.icon-linkedin2:before {
+  content: "\e909";
+}
+/*****************/
 
 /***** General Styles *****/
 html, body {
@@ -255,16 +280,34 @@ footer a {
 	font-size: 30px;
 	transition: all 0.5s ease;
 }
-footer a.tw:hover {
-	color: #1da1f2;
-	transition: all 0.5s ease;
-}
+/*
 footer a.fb:hover {
 	color: #3b5998;
 	transition: all 0.5s ease;
 }
+*/
 footer a.ig:hover {
 	color: #bd0f89;
+	transition: all 0.5s ease;
+}
+footer a.tw:hover {
+	color: #1da1f2;
+	transition: all 0.5s ease;
+}
+footer a.yt:hover {
+	color: #cd201f;
+	transition: all 0.5s ease;
+}
+footer a.st:hover {
+	color: #727272;
+	transition: all 0.5s ease;
+}
+footer a.gh:hover {
+	color: #6e5494;
+	transition: all 0.5s ease;
+}
+footer a.sc:hover {
+	color: #ff8800;
 	transition: all 0.5s ease;
 }
 footer a.li:hover {
