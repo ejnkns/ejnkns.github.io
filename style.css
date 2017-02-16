@@ -68,7 +68,8 @@ html, body {
 	font-style: normal;
 	font-weight: 400;
     height: 100%;
-	background-color: #000000;
+	background-image: url('background.gif');
+    background-size: cover;
 	padding: 0;
 	margin: 0;
 }
