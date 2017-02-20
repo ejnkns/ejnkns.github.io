@@ -1,0 +1,145 @@
+/** ICONS **/
+
+@font-face {
+    font-family: 'icomoon'
+    src:  url('../fonts/icomoon.eot?wdjs0j');
+    src:  url('../fonts/icomoon.eot?wdjs0j#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?wdjs0j') format('truetype'),
+        url('../fonts/icomoon.woff?wdjs0j') format('woff'),
+        url('../fonts/icomoon.svg?wdjs0j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-twitter:before {
+  content: "\e902";
+}
+.icon-youtube:before {
+  content: "\e903";
+}
+.icon-steam:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-android:before {
+  content: "\e906";
+}
+.icon-soundcloud:before {
+  content: "\e907";
+}
+.icon-reddit:before {
+  content: "\e908";
+}
+.icon-linkedin2:before {
+  content: "\e909";
+}
+/*****************/
+
+
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: black url(textbackground.gif) no-repeat center;
+  background-size: 510px 280px;  
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Merriweather', sans-serif;
+  font-size: 8.4rem;
+  line-height: 8rem;
+  text-align: center;
+  padding: 80px;
+  /*/////////MAGIC//HERE////////*/
+  background: black;
+  color: white;
+  mix-blend-mode: multiply;
+  /*////////////////////////////*/
+}
+
+
+a {
+	text-decoration: none;
+}
+
+/***** Footer *****/
+footer {
+	position: absolute;
+	bottom: 35px;
+	text-align: center;
+	display: block;
+	float: left;
+	width: 100%;
+}
+footer a {
+	padding: 0 0.5rem;
+	color: #efefea;
+	font-size: 30px;
+	transition: all 0.5s ease;
+}
+/*
+footer a.fb:hover {
+	color: #3b5998;
+	transition: all 0.5s ease;
+}
+*/
+footer a.ig:hover {
+	color: #bd0f89;
+	transition: all 0.5s ease;
+}
+footer a.tw:hover {
+	color: #1da1f2;
+	transition: all 0.5s ease;
+}
+footer a.yt:hover {
+	color: #cd201f;
+	transition: all 0.5s ease;
+}
+footer a.st:hover {
+	color: #727272;
+	transition: all 0.5s ease;
+}
+footer a.gh:hover {
+	color: #6e5494;
+	transition: all 0.5s ease;
+}
+footer a.sc:hover {
+	color: #ff8800;
+	transition: all 0.5s ease;
+}
+footer a.li:hover {
+	color: #1a85bc;
+	transition: all 0.5s ease;
+}
+
